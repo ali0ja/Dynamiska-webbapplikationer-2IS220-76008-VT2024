@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css" class="css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" class="css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Book a table - Karoon</title>
+    <meta name="description"
+        content="Make a reservation at Karoon! Enjoy a memorable dining experience with our exquisite cuisine and warm hospitality. Book your table online or call us today.">
+
+</head>
+
+<body>
+    <!--header section start-->
+    <section class="header">
+        <a href="/index.html" class="logo"><img src="/img/KAROON-1.jpg" alt="karoon logo"></a>
+        <nav class="navbar">
+            <a href="/index.html">Home</a>
+            <a href="/html/about.html">About</a>
+            <a href="/html/menu.html">Menu</a>
+            <a href="/html/stories.html">Stories</a>
+            <a href="/html/contact.html">Contact</a>
+            <a class="active" href="#">Book a table</a>
+
+        </nav>
+        <div id="menu-btn" class="fas fa-bars">
+
+        </div>
+
+
+    </section>
+    <section class="order">
+        <div class="heading">
+            <span></span>
+            <h3>Book Now</h3>
+        </div>
+        <form>
+            <div class="box-container">
+                <div class="box">
+                    <div class="inputBox">
+                        <span>First Name</span>
+                        <input type="text" placeholder="Enter your firstname" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>Last Name</span>
+                        <input type="text" placeholder="Enter your lastname" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>Order Details</span>
+                        <input type="text" placeholder="Specifics with Food">
+                    </div>
+                    <div class="inputBox">
+                        <span>Your komment</span>
+                        <textarea name="komment" placeholder="Enter your komment here..." cols="30"
+                            rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="inputBox">
+                        <span>Phone Number</span>
+                        <input type="tel" placeholder="Enter your phone number" pattern="[0-9]{5}[-][0-9]{7}[-][0-9]{1}"
+                            required>
+                    </div>
+                    <div class="inputBox">
+                        <span>Table</span>
+                        <input type="number" placeholder="How many you want" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>When You Want</span>
+                        <input type="datetime-local" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>Our Address</span>
+                        <iframe class="map"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3931.1192789793067!2d15.428944177333383!3d60.485494217944634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46677e86aeeac879%3A0x28c09ed06a63ed21!2sBorl%C3%A4nge%20centrum!5e0!3m2!1ssv!2sse!4v1721681947746!5m2!1ssv!2sse"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+            <input type="submit" value="Order Now" class="btn">
+        </form>
+
+    </section>
+    <!--header section end-->
+    <!--footer section-->
+    <section class="footer">
+        <div class="icon-container">
+            <div class="icons">
+                <i class="fas fa-clock"></i>
+                <h3>opening hours</h3>
+                <p>07:00Am To 10:00Pm</p>
+            </div>
+            <div class="icons">
+                <i class="fas fa-phone"></i>
+                <h3>Phone</h3>
+                <p>+46-234-7689</p>
+            </div>
+            <div class="icons">
+                <i class="fas fa-envelope"></i>
+                <h3>Email</h3>
+                <p> <a href="mailto:karoon@gmail.com">karoon@gmail.com</a></p>
+            </div>
+            <div class="icons">
+                <i class="fas fa-map"></i>
+                <h3>Address</h3>
+                <p>Borlänge, Sweden- 47445</p>
+            </div>
+        </div>
+        <div class="share">
+            <div class="share">
+                <a href="https://www.facebook.com/" class="facebook fab fa-facebook-f"></a>
+                <a href="https://twitter.com/" class="x fab fa-x-twitter"></a>
+                <a href="https://www.instagram.com/" class="insta fab fa-instagram"></a>
+                <a href="https://www.linkedin.com/" class="linkedin fab fa-linkedin"></a>
+            </div>
+        </div>
+        <div class="credit">Copyright &copy; 2024 <span> Karoon</span> | All rights reserved.</div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="/js/script.js"></script>
+
+</body>
+
+</html>
